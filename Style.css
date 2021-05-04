@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.onePage{
+    padding-top:25px;
+    background-image: url('./Images/Mask\ Group\ 2.png');
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 80px;
+}
+.menu{
+    margin-right: 80px;
+    display: flex;
+}
+.menu a{
+    font-family: 'Noto Sans',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2C2C2C;
+}
+.menu a:hover{
+    border-bottom: 1px solid #2C2C2C;
+}
+.menu a:last-child{
+    text-align: center;
+    border: 1px solid #393838;
+    border-radius: 11px;
+    width: 94px;
+}
+.onePageText{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 155px;
+}
+.firstText{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Noto Sans',sans-serif;
+}
+.lastChild{
+    width: 350px;
+    font-size: 30px;
+    margin-top: 16px;
+    font-family: 'Noto Sans',sans-serif;
+    color: #2C2C2C;
+}
+.lastChild span{
+    color: #0E4597;
+}
+.lastText{
+    margin-top: 16px;
+    font-size: 25px;
+    width: 350px;
+    color: #2C2C2C;
+    font-family: 'Noto Sans',sans-serif;
+}
+.btn{
+    background-color: #fbfbfc00;
+    font-size: 25px;
+    color: #0E4597;
+    border-radius:11px;
+    border: 1px solid #0E4597;
+    width: 181px;
+    height: 54px;
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+.btn:hover{
+    background-color: #0E4597;
+    color: white;
+}
+.fixed{
+    position: fixed;
+    top: 560px;
+    left: 1420px;
+}
+.fixed div{
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+.fixed img{
+    transform:translate(20px,20px);
+}
+.twoPage{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCF7F1;
+    margin-top: 20px;
+}
+.twoPageText{
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+.twoPageText div:first-child {
+    width: 383px;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 28px;
+    color: #2C2C2C;
+    text-transform: capitalize;
+}
+.twoPageText span{
+    color: #0E4597;
+}
+.twoPageText div:nth-child(2){
+    margin-top: 40px;
+    width: 383px;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 20px;
+    color: #2C2C2C;
+}
+.twoPageText div:nth-child(3){
+    border-radius: 0 30px 30px 0;
+    background-color: #ffffffa3 ;
+    padding: 20px 35px 20px 0px;
+    margin-top: 40px;
+    width: 720px;
+    height: 148px;
+    left: 0;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    color: #2C2C2C;
+}
+.twoPageText div:nth-child(3) p{
+   margin-left: 80px;
+}
+.twoPageText div:last-child button{
+    margin-top: 350px;
+    color: #0E4597;
+    width: 242px;
+    height: 60px;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 20px;
+    border: 1px solid #0E4597;
+    border-radius: 22px;
+    background-color: #fbfbfc00;
+}
+.twoPageText div:last-child button:hover{
+    background-color: #0E4597;
+    color: white;
+}
+.twoPageImage{
+    margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.threePage{
+    background-color: #F2F2F2 ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.threePageText h1{
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'Noto Sans',sans-serif;
+    color: #2C2C2C;
+    font-size: 38px;
+}
+.threePageText  span{
+    color: #0E4597;
+}
+.threePageText p{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Noto Sans',sans-serif;
+    color: #393838;
+    font-size: 25px;
+}
+.lists{
+    margin-top:120px;
+    display: flex;
+    justify-content: space-around;
+}
+.lists div img{
+    float: left;
+    margin-right: 25px;
+}
+.lists h1{
+   font-family: 'Noto Sans',sans-serif;
+   color: #2C2C2C;
+   font-size: 25px;
+   padding-top: 10px;
+   margin-bottom: 30px;
+}
+.listsText p{
+    font-family: 'Noto Sans',sans-serif;
+    margin-left: 100px;
+    font-size: 16px;
+    color: #474646;
+}
+.lists div {
+    width: 350px;
+    margin-bottom:100px ;
+}
+#treeList{
+    margin-top: 145px;
+}
+.fourPage{
+    margin-top: 20px;
+    background-color: #fffbf6;
+}
+.fourPageHeader{
+    text-align: center;
+}
+.fourPageHeader h1{
+    padding-top: 60px;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 38px;
+    color:#2C2C2C;
+}
+.fourPageHeader span{
+    color: #0E4597;
+}
+.fourPageHeader p{
+    color: #393838;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.fourPageList{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+   
+}
+.oneListBckImage{
+    width: 396px;
+    height: 534px;
+    background-image: url('./Images/Mask\ Group\ 4.png');
+}
+.twoListBckImage{
+    width: 396px;
+    height: 534px;
+    background-image: url('./Images/Mask\ Group\ 5.png');
+}
+.threeListBckImage{
+    width: 396px;
+    height: 534px;
+    background-image: url('./Images/Mask\ Group\ 6.png');
+}
+
+.Name{
+    text-align: center;
+    background-color: #ffffffab;
+    border-radius: 47px;
+    height: 100px;
+    transform: translate(0px, 433px);
+}
+.Name h1{
+    padding: 5px;
+    color: #0E4597;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 30px;
+}
+.Name p{
+    padding: 5px;
+    font-size: 21px;
+    color: #474646;
+    font-family: 'Noto Sans',sans-serif;
+}
+.ListText{
+    font-size: 20px;
+    color: #393838;
+    font-family: 'Noto Sans',sans-serif;
+    margin-top: 50px;
+    width: 396px; 
+    margin-bottom: 150px;
+}
+.fivePage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-image: url('./Images/Mask\ Group\ 7.png');
+}
+.fivePageForm{
+    font-family: 'Noto Sans',sans-serif;
+    background-color: #ffffff99;
+    width: 700px;
+}
+.fivePageForm h1{
+    text-align: center;
+    padding-top: 60px;
+}
+.fivePageForm p{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 22px;
+    margin-top: 50px;
+}
+.fivePageForm input, textarea {
+    font-family: 'Noto Sans',sans-serif;
+    padding-left: 20px;
+    border: 1px solid #2C2C2C;
+    height: 50px;
+    background-color: #ffffff26;
+    border-radius: 32px;
+    margin-left: 80px;
+    margin-top: 42px;
+    width: 460px;
+    display: inline-block;
+}
+.fivePageForm form input:first-child{
+    margin-top: 150px;
+}
+.fivePageForm textarea {
+    padding-top:20px;
+    height: 150px;
+    resize: none;
+}
+.fivePageForm form button{
+    color: #0E4597;
+    border-radius: 22px;
+    border: 1px solid #0E4597;
+    background-color: #ffffff26;
+    height: 60px;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 25px;
+    margin-bottom: 245px;
+    margin-top: 142px;
+    transform: translate(75%, 25%);
+    width: 243px;
+}
+form button:hover{
+    background-color: #0E4597;
+    color: #F2F2F2;
+}
+.footer{
+    margin-top: 62px;
+}
+.footerColumns{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #393939;
+    border-radius: 133px 133px 0 0;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+.footerLogo{
+    margin-top: 111px;
+}
+.footerText {
+    width: 300px;
+    margin-top: 50px;
+    font-family: 'Noto Sans',sans-serif;
+    color: #393838;
+}
+.footerMenu{
+    margin-top: 111px;
+}
+.footerMenu ul li{
+    margin-top: 15px;
+    list-style: none;
+}
+.footerMenu ul li:first-child{
+    margin: 0;
+}
+.footerMenu ul li a{
+    font-weight: bold;
+    color: #393939;
+    font-family: 'Noto Sans',sans-serif;
+    text-decoration: none;
+}
+.footerContact{
+    margin-top: 111px;
+}
+.footerContact h1{
+   color: #393939;
+   font-size: 18px;
+   font-family: 'Noto Sans',sans-serif;
+}
+.footerContact table, td {
+    color: #393838;
+    font-family: 'Noto Sans',sans-serif;
+}
+.footerContact td{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#last{
+    padding-top: 20px;
+    padding-left: 35px;
+}
+.footerSign{
+    width: 300px;
+    margin-top: 111px;
+    font-family: 'Noto Sans',sans-serif;
+}
+.footerSign h1{
+    font-size: 18px;
+    color: #393939;
+    
+}
+.footerSign input {
+    padding-left: 10px;
+    margin-top: 25px;
+    width: 255px;
+    height: 49px;
+    border-radius: 17px;
+    border: 1px solid #393939;
+}
+.footerSign button{
+    margin-top: 25px;
+    width: 179px;
+    height: 49px;
+    border: 1px solid #0E4597;
+    border-radius: 17px;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 18px;
+    background-color: #0E4597;
+    color: white;
+}
+.footerSign button:hover{
+    color: #0E4597;
+    background-color: #ffffff26;
+}
+.footerBottom{
+    text-align: center;
+    color: #525252;
+    margin-top: 137px;
+    font-family: 'Noto Sans',sans-serif;
+    margin-bottom: 20px;
+}
+.footerBottom span{
+   color: #0E4597;
+   font-family: 'Noto Sans',sans-serif;
+}
+.footerBottom a{
+    text-decoration: none;
+    color: #0E4597;
+    font-family: 'Noto Sans',sans-serif;
+}
